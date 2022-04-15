@@ -1,5 +1,13 @@
-# qcm-capitales-europe
+# Quiz sur les capitales d'Europe
 
-Projet #3 de création frontend.
+Un second projet de création frontend en Javascript dans le cadre formation Concepteur Développeur d'applications fullstack.
 
-Un quiz sur les capitale d'Europe réalisé avec HTML, CSS et Javascript.
+Il s'agit de créer un quiz en pur JS, from the scratch.
+
+Compétences :
+
+```
+HTML5
+CSS3
+JS
+```
