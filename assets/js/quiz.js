@@ -30,7 +30,7 @@ function renderQuestion(){
     let q = questions[quizQuestions[runningQuestion]];
     
     question.innerHTML = "<p>"+ q.question +"</p>";
-    qImg.innerHTML = '<img src="/assets/img/'+ q.imgSrc +'">';
+    qImg.innerHTML = '<img src="/qcm-capitales-europe/assets/img/'+ q.imgSrc +'">';
     choiceA.innerHTML = q.choiceA;
     choiceB.innerHTML = q.choiceB;
     choiceC.innerHTML = q.choiceC;
@@ -125,7 +125,7 @@ function scoreRender(){
               (scorePerCent >= 20) ? "2.png" :
               "1.png";
     
-    scoreDiv.innerHTML = '<img src="/assets/img/'+ img +'">';
+    scoreDiv.innerHTML = '<img src="/qcm-capitales-europe/assets/img/'+ img +'">';
     scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
 }
 
